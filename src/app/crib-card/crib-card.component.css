@@ -1,0 +1,41 @@
+.img-thumbnail {
+    border: 0;
+}
+
+.price {
+    font-size: 16px;
+    color: red;
+}
+
+h4 {
+    font-size: 15px;
+    color: #5c5a5a;
+}
+
+.caption {
+    margin-left: 5px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card {
+    min-height: 407px;
+    background-color: #8080800d;
+}
+
+.buttons {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 75px;
+}
+
+img.location-icon {
+    width: 18px;
+    height: 18px;
+}

@@ -1,0 +1,23 @@
+<div class="card">
+    <img class="img-thumbnail" src="assets/images/{{ crib.image}}.jpg" alt="">
+    <div class="caption">
+        <span class="badge text-bg-primary">{{ crib.type }}</span>
+        <h3 class="price">
+            {{ crib.price | number}} €
+        </h3>
+        <h4>
+            <img class="location-icon" src="https://img.icons8.com/arcade/64/000000/experimental-marker-arcade.png"/>
+            {{ crib.address }}
+        </h4>
+        <div *ngIf="showDetails" class="details">
+            <span class="badge text-bg-warning">Bedrooms: {{ crib.bedrooms }}</span>
+            <span class="badge text-bg-warning">Bathrooms: {{ crib.bathrooms }}</span>
+            <span class="badge text-bg-warning">SqFt: {{ crib.area }}</span>
+            <p>{{ crib.description }}</p>
+        </div>
+        <div class="buttons">
+            <button type="button" class="btn btn-success" (click)="showDetails = true">Details</button>
+            <button type="button" class="btn btn-danger" (click)="showDetails = false">Close</button>
+        </div>
+    </div> 
+</div>
