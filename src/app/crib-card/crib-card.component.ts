@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
+import { Crib } from './../crib';
 
 @Component({
   selector: 'app-crib-card',
@@ -9,11 +10,12 @@ import { ViewEncapsulation } from '@angular/core';
 })
 export class CribCardComponent implements OnInit {
 
-  @Input('crib') crib:any; 
+  @Input('crib') crib: Crib; 
   constructor() { }
 
   showDetails = false;
 
-  ngOnInit(): void {
+  ngOnInit() {
+    let bedrooms = this.crib.bedrooms;
   }
 }

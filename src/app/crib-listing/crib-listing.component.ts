@@ -13,7 +13,7 @@ export class CribListingComponent implements OnInit {
   cribs: Array<any> = cribs;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
