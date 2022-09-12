@@ -10,12 +10,12 @@ import { Crib } from './../crib';
 })
 export class CribCardComponent implements OnInit {
 
-  @Input('crib') crib: Crib; 
-  constructor() { }
+  @Input('crib') crib!: Crib; 
+  constructor() {
+   }
 
   showDetails = false;
 
   ngOnInit() {
-    let bedrooms = this.crib.bedrooms;
   }
 }

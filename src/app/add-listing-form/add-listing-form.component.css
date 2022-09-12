@@ -1,0 +1,20 @@
+.listing-btn {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card-header h2 {
+    font-size: 20px;
+}

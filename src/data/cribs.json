@@ -1,4 +1,4 @@
-export const cribs = [
+  [
     {
       "id": 1,
       "type": "Condo",
@@ -7,7 +7,7 @@ export const cribs = [
       "description": "Excellent place, really nice view!",
       "bedrooms": 2,
       "bathrooms": 1.5,
-      "area": 921,
+      "area": 100,
       "image":"crib-1"
     },
     {
@@ -18,7 +18,7 @@ export const cribs = [
       "description": "Beautiful home with lots of space for a large family.",
       "bedrooms": 4,
       "bathrooms": 3,
-      "area": 2145,
+      "area": 245,
       "image":"crib-2"
     },
     {
@@ -29,7 +29,7 @@ export const cribs = [
       "description": "Great neighbourhood and lot's of nice green space.",
       "bedrooms": 3,
       "bathrooms": 2.5,
-      "area": 1500,
+      "area": 600,
       "image":"crib-3"
     },
     {
@@ -40,7 +40,7 @@ export const cribs = [
       "description": "Best house on the block!",
       "bedrooms": 6,
       "bathrooms": 4.5,
-      "area": 3230,
+      "area": 90,
       "image":"crib-4"
     },
     {
@@ -51,7 +51,7 @@ export const cribs = [
       "description": "Nice little condo with room to grow.",
       "bedrooms": 2,
       "bathrooms": 1.5,
-      "area": 1023,
+      "area": 123,
       "image":"crib-5"
     },
     {
@@ -62,7 +62,7 @@ export const cribs = [
       "description": "You'll love the view!",
       "bedrooms": 4,
       "bathrooms": 2.5,
-      "area": 1788,
+      "area": 178,
       "image":"crib-6"
     }
   ]

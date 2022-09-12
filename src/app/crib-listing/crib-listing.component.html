@@ -1,5 +1,19 @@
 <div class="row">
-    <div *ngFor="let crib of cribs" class="col-md-4 col-sm-6 col-12">
+    <div class="w-100 h-25">     
+        <div class="col-sm-2 sort-filter">
+            <label for="sort-field">Sort by</label>
+            <select
+                class="form-control form-select"
+                name="sortField"
+                id="sortField"
+                [(ngModel)]="sortField">
+                <option *ngFor="let field of sortFields" [value]="field">
+                    {{ utilService.capitalize(field) }}
+                </option>
+            </select>
+        </div>
+    </div>
+    <div *ngFor="let crib of cribs | sortBy: [sortField]" class="col-md-4 col-sm-6 col-12">
         <app-crib-card [crib]="crib" ></app-crib-card>
     </div>
 </div>
